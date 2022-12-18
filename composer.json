@@ -1,9 +1,6 @@
 {
   "name":"nhangia/tester",
   "description":"App test",
-  "config": {
-    "optimize-autoloader": true
-  },
   "keywords":[
     "test"
   ],
@@ -28,7 +25,7 @@
   },
   "autoload": {
     "psr-4": {
-      "NinjaTester\\": "src/Tester"
+      "NinjaTester\\": "src/"
     }
   }
 }
